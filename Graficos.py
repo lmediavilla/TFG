@@ -1,3 +1,1 @@
-class Graficos:
-    def constructor(self):
-        
+# coding utf-8class Graficos:
