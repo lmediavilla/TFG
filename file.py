@@ -6,6 +6,7 @@ from Noticias import Noticias
 import inspect
 import datetime
 from sys import argv
+import pandas as pd
 
 #TOKEN = ''
 API1 = ''
@@ -39,20 +40,39 @@ def noticias_comando(bot, update, args):
     if len(args) == 1:
         #print('MAIN NOTICIAS')
         try:
+            print(f'args[0] -> {args[0]}')
             C = Noticias()
             valor = args[0]
             noticias = []
+            print(f'C.rss(valor) -> {C.rss(valor)}')
             noticias = C.rss(valor)
+            print(f'file.py noticias -> {noticias}')
             for i in range(len(noticias)):
-                #print(f'i: {i} {noticias[i]}')
+                print(f'{noticias[i]}')
                 update.message.reply_text(f'{noticias[i]}')
             #chequeamos si está vacío
             if not noticias:
-                update.message.reply_text('Comando erroneo, por favor utiliza:\n /noticias 1 ó 2')
+                update.message.reply_text('Ocurrió un error')
         except Exception as ex:
-            print(f'{datetime.datetime.now().time()}: {ex}')
+            print(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
+            update.message.reply_text('Ocurrió un error')
     else:
-        update.message.reply_text('Comando erroneo, por favor utiliza:\n /noticias 1 ó 2')
+        try:
+            C = Noticias()
+            Array = []
+            Array = C.lista()
+            res = ''
+            #print(f'len(Array): {len(Array)} Array: {Array}')
+            for i in range(len(Array)):
+                #print(f'Array[i]: {Array[i]}')
+                res+=str(i)
+                res+=str('->')
+                res+=str(Array[i])
+                res+=str('\n')
+            #print(f'res: {res}')
+            update.message.reply_text(f'Utiliza /noticias #numero siendo éste el proveedor de noticias\n {res}')
+        except Exception as ex:
+            print(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
 
 #acción
 def accion_comando(bot, update, args):
@@ -66,11 +86,11 @@ def main(args):
     with open('token1.txt') as f:
         global API1
         API1 = f.readline()
-        print(f'API-1: {API1}')
+        #print(f'API-1: {API1}')
     with open('token2.txt') as f:
         global API2
         API2 = f.readline()
-        print(f'API-2: {API2}')
+        #print(f'API-2: {API2}')
     updater = Updater(API1)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('noticias',noticias_comando,pass_args = True))
