@@ -2,19 +2,18 @@
 
 from telegram.ext import CommandHandler, Updater
 from cambio import Bolsa
+from Mercado import Accion
 from Noticias import Noticias
 import inspect
 import datetime
 from sys import argv
 import pandas as pd
 
-#TOKEN = ''
-API1 = ''
-API2 = ''
+
 #devolver un hola al usuario
 def hola_comando(bot, update):
     update.message.reply_text(
-        'Hola {}, por ahora soporto /hola, /adios, /cambio moneda1 moneda2, /noticias, /valor empresa, /cambioayuda, /valorayuda, /noticiasayuda '.format(update.message.from_user.first_name))
+        'Hola {}, por ahora soporto:\n /hola \n /adios, \n/cambio moneda1 moneda2 \n /noticias \n /valor empresa \n /cambioayuda \n /valorayuda \n /noticiasayuda '.format(update.message.from_user.first_name))
 
 #devolver un adios al usuario
 def adios_comando(bot, update):
@@ -27,8 +26,8 @@ def cambio_comando(bot, update, args):
         moneda1, moneda2 = args
         moneda1 = moneda1.upper()
         moneda2 = moneda2.upper()
-        c = Bolsa(API2)
-        update.message.reply_text(c.cambio(moneda1, moneda2))
+        C = Bolsa()
+        update.message.reply_text(C.cambio(moneda1, moneda2))
     else:
         update.message.reply_text('Comando erroneo, por favor utiliza:\n /cambio moneda1 moneda2')
 
@@ -44,17 +43,17 @@ def noticias_comando(bot, update, args):
             C = Noticias()
             valor = args[0]
             noticias = []
-            print(f'C.rss(valor) -> {C.rss(valor)}')
+            #print(f'C.rss(valor) -> {C.rss(valor)}')
             noticias = C.rss(valor)
-            print(f'file.py noticias -> {noticias}')
+            #print(f'file.py noticias -> {noticias}')
             for i in range(len(noticias)):
-                print(f'{noticias[i]}')
+                #print(f'{noticias[i]}')
                 update.message.reply_text(f'{noticias[i]}')
             #chequeamos si está vacío
             if not noticias:
                 update.message.reply_text('Ocurrió un error')
         except Exception as ex:
-            print(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
+            #print(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
             update.message.reply_text('Ocurrió un error')
     else:
         try:
@@ -72,33 +71,34 @@ def noticias_comando(bot, update, args):
             #print(f'res: {res}')
             update.message.reply_text(f'Utiliza /noticias #numero siendo éste el proveedor de noticias\n {res}')
         except Exception as ex:
-            print(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
+            update.message.reply_text(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
+            #print(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
 
 #acción
 def accion_comando(bot, update, args):
     if len(args) == 1:
-        print('hello world')
+        C = Accion()
+        #print(C.valor(args[0]))
+        update.message.reply_text(C.valor(args[0]))
     else:
         update.message.reply_text('Comando erroneo, por favor utiliza:\n /accion empresa')
 
 
 def main(args):
-    with open('token1.txt') as f:
-        global API1
+    API1 = ''
+    with open('./token1.txt', 'rU') as f:
         API1 = f.readline()
-        #print(f'API-1: {API1}')
-    with open('token2.txt') as f:
-        global API2
-        API2 = f.readline()
-        #print(f'API-2: {API2}')
+        f.close()
+    #print(f'API-1->{API1}')
     updater = Updater(API1)
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('noticias',noticias_comando,pass_args = True))
     dispatcher.add_handler(CommandHandler('hola', hola_comando))
+    dispatcher.add_handler(CommandHandler('start', hola_comando))
     dispatcher.add_handler(CommandHandler('adios', adios_comando))
     dispatcher.add_handler(CommandHandler('cambio',cambio_comando,pass_args = True))
     dispatcher.add_handler(CommandHandler('cambioayuda',cambioayuda_comando))
-    #dispatcher.add_handler(CommandHandler('accion', accion_comando, pass_args = True))
+    dispatcher.add_handler(CommandHandler('accion', accion_comando, pass_args = True))
     updater.start_polling(clean=True)
     updater.idle()
 

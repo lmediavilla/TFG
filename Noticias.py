@@ -7,7 +7,7 @@ class Noticias:
 
     def rss(self, url):
         try:
-            df=pd.read_csv('rss.txt', sep=',',header=0)
+            df=pd.read_csv('rss.csv', sep=',',header=0)
             #print(df.values)
             #print(f'url -> {url}')
             col = list(df['url'].values)
@@ -24,15 +24,19 @@ class Noticias:
             return array
         except Exception as ex:
             print(f'Noticias: rss -> {datetime.datetime.now().time()}: {ex}')
+            ##codigo pendiente de testear
+            array = []
+            array.append("No se pudo cargar la lista de noticias")
+            return array
     def longitud(self):
         try:
-            num_lines = sum(1 for line in open('rss.txt'))
+            num_lines = sum(1 for line in open('rss.csv'))
             return num_lines
         except Exception as ex:
             print(ex)
     def lista(self):
         try:
-            df=pd.read_csv('rss.txt', sep=',',header=0)
+            df=pd.read_csv('rss.csv', sep=',',header=0)
             col = list(df['nombre'].values)
             #print(f'debug col: \n {col}')
             array = []

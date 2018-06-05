@@ -6,9 +6,12 @@ import datetime
 
 
 class Bolsa:
-    def __init__(self, API):
-        self.api = API
-
+    api = ''
+    def __init__(self):
+        with open('./token2.txt', 'rU') as f:
+            self.api = f.readline()
+            #print(f'API2-> {self.api}')
+            f.close()
     def cambio(self, moneda1, moneda2):
         ###debug###
         #print((f'{moneda1} and {moneda2}'))
