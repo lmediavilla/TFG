@@ -97,3 +97,562 @@ Sat Jun  9 22:05:43 2018 -> info -> comprobando hilo
 Sat Jun  9 22:06:23 2018 -> info -> comprobando hilo
 Sat Jun  9 22:06:29 2018 -> error -> Noticias: rss -> : list index out of range
 Sat Jun  9 22:06:32 2018 -> info -> Noticias -> rss : ['http://www.elmundo.es/economia/2018/06/09/5b1ab327468aeb46088b45e4.html', 'http://www.elmundo.es/economia/2018/06/08/5b1ad17f468aeb46088b4603.html', 'http://www.elmundo.es/economia/2018/06/09/5b1bfd3ee5fdea0d088b46a0.html', 'http://www.elmundo.es/economia/2018/06/09/5b1c05c4e5fdeafc078b46a4.html', 'http://www.elmundo.es/economia/2018/06/08/5b19c967e5fdea65628b466a.html', 'http://www.elmundo.es/economia/2018/06/08/5b19bc61ca4741c8018b45dd.html', 'http://www.elmundo.es/economia/2018/06/08/5b19805d22601de1078b4705.html', 'http://www.elmundo.es/opinion/2018/06/09/5b1ab938268e3e6c068b460c.html', 'http://www.elmundo.es/economia/empresas/2018/06/08/5b1a76cde5fdea06088b45ae.html', 'http://www.elmundo.es/economia/empresas/2018/06/08/5b1a6c5de5fdeafd078b459a.html']
+Sun Jun 10 00:45:10 2018 -> info -> comprobando hilo
+Sun Jun 10 00:46:10 2018 -> info -> comprobando hilo
+Sun Jun 10 00:47:10 2018 -> info -> comprobando hilo
+Sun Jun 10 00:48:10 2018 -> info -> comprobando hilo
+Sun Jun 10 00:49:10 2018 -> info -> comprobando hilo
+Sun Jun 10 00:50:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:51:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:52:09 2018 -> info -> Bolsa -> cambio : USD equivale a 0.849704 EUR fecha del valor 10-06-2018 00:52:11
+Sun Jun 10 00:52:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:53:14 2018 -> info -> Accion -> valor : Ultima cotización de msft a fecha 2018-06-08 es 101.6300 USD
+Sun Jun 10 00:53:25 2018 -> info -> Accion -> valor : Ultima cotización de googl a fecha 2018-06-08 es 1132.7100 USD
+Sun Jun 10 00:53:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:54:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:55:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:56:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:56:53 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/08/5b1a197522601dce7c8b4571.html', 'http://www.expansion.com/mercados/2018/06/09/5b1c09e5e2704ea9248b45ca.html', 'http://www.expansion.com/mercados/2018/06/09/5b1c0078e5fdeaff078b4677.html', 'http://www.expansion.com/mercados/renta-fija/2018/06/08/5b1a392c22601d4b728b4590.html', 'http://www.expansion.com/mercados/fondos/2018/06/08/5b1a8997e2704e61068b45fd.html', 'http://www.expansion.com/empresas/inmobiliario/2018/06/08/5b1a8860e2704e7b068b45c2.html', 'http://www.expansion.com/mercados/2018/06/07/5b1955d1468aeb5a6c8b460b.html', 'http://www.expansion.com/mercados/2018/06/07/5b192383e5fdea346e8b45ab.html', 'http://www.expansion.com/mercados/2018/06/07/5b18e648e5fdeae74c8b4585.html', 'http://www.expansion.com/mercados/2018/06/07/5b18d2b246163f5e498b4647.html']
+Sun Jun 10 00:57:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:58:30 2018 -> info -> comprobando hilo
+Sun Jun 10 00:59:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:00:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:01:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:02:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:03:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:04:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:05:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:06:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:07:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:08:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:09:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:10:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:11:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:12:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:13:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:14:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:15:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:16:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:17:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:18:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:19:30 2018 -> info -> comprobando hilo
+Sun Jun 10 01:39:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:39:23 2018 -> info -> Bolsa -> cambio : USD equivale a 0.849704 EUR fecha del valor 10-06-2018 01:39:26
+Sun Jun 10 01:40:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:41:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:42:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:43:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:44:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:45:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:46:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:47:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:48:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:49:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:50:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:51:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:52:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:53:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:54:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:55:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:56:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:57:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:58:15 2018 -> info -> comprobando hilo
+Sun Jun 10 01:59:15 2018 -> info -> comprobando hilo
+Sun Jun 10 02:00:15 2018 -> info -> comprobando hilo
+Sun Jun 10 02:01:15 2018 -> info -> comprobando hilo
+Sun Jun 10 02:02:15 2018 -> info -> comprobando hilo
+Sat Jun 23 16:22:43 2018 -> info -> comprobando hilo
+Sat Jun 23 16:33:23 2018 -> error -> Accion -> valor : empresa:TEF.TI -> 'Time Series (Daily)'
+Sat Jun 23 16:33:24 2018 -> info -> Accion -> valor : Ultima cotización de MSFT a fecha 2018-06-22 es 100.4100 USD
+Sat Jun 23 16:33:25 2018 -> info -> Accion -> valor : Ultima cotización de abc a fecha 2018-06-22 es 93.5000 USD
+Sat Jun 23 16:33:28 2018 -> error -> Accion -> valor : empresa:error forzado -> 'Time Series (Daily)'
+Sat Jun 23 16:33:32 2018 -> error -> Accion -> valor : empresa:TEF.TI -> 'Time Series (Daily)'
+Sat Jun 23 16:33:32 2018 -> info -> Accion -> valor : Ultima cotización de MSFT a fecha 2018-06-22 es 100.4100 USD
+Sat Jun 23 16:33:34 2018 -> info -> Accion -> valor : Ultima cotización de abc a fecha 2018-06-22 es 93.5000 USD
+Sat Jun 23 16:33:37 2018 -> error -> Accion -> valor : empresa:error forzado -> 'Time Series (Daily)'
+Sat Jun 23 16:34:06 2018 -> error -> Accion -> valor : empresa: TEF.TI -> 'Time Series (Daily)'
+Sat Jun 23 16:34:07 2018 -> info -> Accion -> valor : Ultima cotización de MSFT a fecha 2018-06-22 es 100.4100 USD
+Sat Jun 23 16:34:08 2018 -> info -> Accion -> valor : Ultima cotización de abc a fecha 2018-06-22 es 93.5000 USD
+Sat Jun 23 16:34:11 2018 -> error -> Accion -> valor : empresa: error forzado -> 'Time Series (Daily)'
+Sat Jun 23 16:34:19 2018 -> info -> Accion -> valor : Ultima cotización de TEF a fecha 2018-06-22 es 8.6700 USD
+Sat Jun 23 16:34:21 2018 -> info -> Accion -> valor : Ultima cotización de MSFT a fecha 2018-06-22 es 100.4100 USD
+Sat Jun 23 16:34:23 2018 -> info -> Accion -> valor : Ultima cotización de abc a fecha 2018-06-22 es 93.5000 USD
+Sat Jun 23 16:34:26 2018 -> error -> Accion -> valor : empresa: error forzado -> 'Time Series (Daily)'
+Sat Jun 23 17:08:01 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'modificador'
+Sat Jun 23 17:08:14 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'modificador'
+Sat Jun 23 17:16:22 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'modificador'
+Sat Jun 23 17:16:49 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'modificador'
+Sat Jun 23 17:17:14 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'mod'
+Sat Jun 23 17:17:21 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'precio'
+Sat Jun 23 17:22:46 2018 -> error -> Alerta -> listar : chatId: 7457541 -> must be str, not int
+Sat Jun 23 17:28:56 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'modificador'
+Sat Jun 23 17:31:23 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'modificador'
+Sat Jun 23 17:31:41 2018 -> error -> Alerta -> listar : chatId: 7457541 -> ('empresa', 'modificador', 'valor')
+Sat Jun 23 20:44:59 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'rstrip'
+Sat Jun 23 20:47:07 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'rstrip'
+Sat Jun 23 20:47:30 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'strip'
+Sat Jun 23 20:47:52 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'strip'
+Sat Jun 23 20:48:12 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'strip'
+Sat Jun 23 20:48:22 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'strip'
+Sat Jun 23 20:48:31 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'strip'
+Sat Jun 23 20:49:43 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'list' object has no attribute 'strip'
+Sat Jun 23 20:49:50 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'list' object has no attribute 'strip'
+Sat Jun 23 20:50:44 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'numpy.ndarray' object has no attribute 'values'
+Sat Jun 23 21:05:11 2018 -> error -> Alerta -> listar : chatId: 7457541 -> must be str, not int
+Sat Jun 23 21:07:37 2018 -> error -> Alerta -> listar : chatId: 7457541 -> list assignment index out of range
+Sat Jun 23 21:08:11 2018 -> error -> Alerta -> listar : chatId: 7457541 -> list assignment index out of range
+Sat Jun 23 21:09:12 2018 -> error -> Alerta -> listar : chatId: 7457541 -> list assignment index out of range
+Sat Jun 23 21:09:17 2018 -> error -> Alerta -> listar : chatId: 7457541 -> list assignment index out of range
+Sat Jun 23 21:10:49 2018 -> error -> Alerta -> listar : chatId: 7457541 -> list assignment index out of range
+Sat Jun 23 21:11:00 2018 -> error -> Alerta -> listar : chatId: 7457541 -> list assignment index out of range
+Sat Jun 23 21:11:06 2018 -> error -> Alerta -> listar : chatId: 7457541 -> list assignment index out of range
+Sat Jun 23 21:11:37 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 12 is out of bounds for axis 0 with size 12
+Sat Jun 23 21:11:48 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 12 is out of bounds for axis 0 with size 12
+Sat Jun 23 21:12:57 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 12 is out of bounds for axis 0 with size 12
+Sat Jun 23 21:15:52 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 12 is out of bounds for axis 0 with size 12
+Sat Jun 23 21:33:56 2018 -> info -> comprobando hilo
+Sat Jun 23 21:34:46 2018 -> info -> comprobando hilo
+Sat Jun 23 21:35:25 2018 -> info -> comprobando hilo
+Sat Jun 23 21:36:05 2018 -> info -> comprobando hilo
+Sat Jun 23 21:36:34 2018 -> info -> comprobando hilo
+Sat Jun 23 21:37:17 2018 -> info -> comprobando hilo
+Sat Jun 23 21:37:48 2018 -> info -> comprobando hilo
+Sat Jun 23 21:38:32 2018 -> info -> comprobando hilo
+Sat Jun 23 21:38:44 2018 -> info -> comprobando hilo
+Sat Jun 23 21:41:41 2018 -> info -> comprobando hilo
+Sat Jun 23 21:41:53 2018 -> info -> Accion -> valor : Ultima cotización de msft a fecha 2018-06-22 es 100.4100 USD
+Sat Jun 23 21:42:35 2018 -> info -> comprobando hilo
+Sat Jun 23 21:43:35 2018 -> info -> comprobando hilo
+Sat Jun 23 21:43:57 2018 -> info -> comprobando hilo
+Sat Jun 23 21:44:25 2018 -> info -> comprobando hilo
+Sat Jun 23 21:44:28 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Sat Jun 23 21:44:50 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Sat Jun 23 21:45:25 2018 -> info -> comprobando hilo
+Sat Jun 23 21:46:18 2018 -> info -> comprobando hilo
+Sat Jun 23 21:47:18 2018 -> info -> comprobando hilo
+Sat Jun 23 21:48:18 2018 -> info -> comprobando hilo
+Sat Jun 23 21:49:18 2018 -> info -> comprobando hilo
+Sat Jun 23 21:50:18 2018 -> info -> comprobando hilo
+Sat Jun 23 21:51:18 2018 -> info -> comprobando hilo
+Sat Jun 23 21:51:30 2018 -> info -> comprobando hilo
+Sat Jun 23 21:51:42 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Sat Jun 23 21:51:46 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Sat Jun 23 21:51:50 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Sat Jun 23 21:52:30 2018 -> info -> comprobando hilo
+Sat Jun 23 21:52:47 2018 -> info -> comprobando hilo
+Sat Jun 23 21:53:48 2018 -> info -> comprobando hilo
+Sat Jun 23 22:37:31 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:38:43 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:39:21 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:39:21 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:39:39 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:39:39 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:39:55 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:40:08 2018 -> info -> comprobando hilo
+Sat Jun 23 22:40:12 2018 -> error -> Alerta -> listar : chatId: 7457541 -> index 16 is out of bounds for axis 0 with size 16
+Sat Jun 23 22:40:55 2018 -> info -> comprobando hilo
+Sat Jun 23 22:42:19 2018 -> info -> comprobando hilo
+Sat Jun 23 22:50:47 2018 -> info -> comprobando hilo
+Sun Jun 24 00:04:22 2018 -> info -> comprobando hilo
+Sun Jun 24 00:04:33 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Sun Jun 24 00:04:39 2018 -> info -> file -> alerta_comando "/alerta borrar" ejecutado
+Sun Jun 24 00:04:45 2018 -> info -> file -> alerta_comando "/alerta borrar" ejecutado
+Sun Jun 24 00:04:48 2018 -> info -> file -> alerta_comando "/alerta aaa" ejecutado
+Sun Jun 24 00:04:54 2018 -> info -> file -> alerta_comando "/alerta lsitar" ejecutado
+Sun Jun 24 00:05:03 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Sun Jun 24 00:05:22 2018 -> info -> comprobando hilo
+Sun Jun 24 00:06:22 2018 -> info -> comprobando hilo
+Sun Jun 24 00:07:22 2018 -> info -> comprobando hilo
+Sun Jun 24 00:07:55 2018 -> info -> comprobando hilo
+Sun Jun 24 00:08:07 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 00:08:07 2018 -> error -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 00:08:27 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 00:08:27 2018 -> error -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 00:08:55 2018 -> info -> comprobando hilo
+Sun Jun 24 00:09:55 2018 -> info -> comprobando hilo
+Sun Jun 24 00:17:04 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['id'] not in index"
+Sun Jun 24 00:26:40 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> 'function' object has no attribute 'to_csv'
+Sun Jun 24 00:44:50 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> name 'false' is not defined
+Sun Jun 24 00:46:28 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> 'id'
+Sun Jun 24 00:47:05 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:49:14 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:50:06 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:50:14 2018 -> info -> comprobando hilo
+Sun Jun 24 00:50:18 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:51:14 2018 -> info -> comprobando hilo
+Sun Jun 24 00:52:21 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:52:59 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:53:22 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:53:54 2018 -> error -> Alerta -> listar : chatId: 7457541 -> 'id'
+Sun Jun 24 00:54:26 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> 'id'
+Sun Jun 24 00:54:35 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> 'id'
+Sun Jun 24 00:55:14 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> 'id'
+Sun Jun 24 00:56:02 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> 'id'
+Sun Jun 24 01:04:26 2018 -> info -> comprobando hilo
+Sun Jun 24 01:04:34 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 01:04:34 2018 -> error -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 01:05:02 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 01:05:02 2018 -> error -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 01:05:15 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 01:05:15 2018 -> error -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 01:05:26 2018 -> info -> comprobando hilo
+Sun Jun 24 01:06:26 2018 -> info -> comprobando hilo
+Sun Jun 24 01:07:26 2018 -> info -> comprobando hilo
+Sun Jun 24 01:08:26 2018 -> info -> comprobando hilo
+Sun Jun 24 01:22:01 2018 -> info -> comprobando hilo
+Sun Jun 24 01:22:09 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 01:31:39 2018 -> info -> comprobando hilo
+Sun Jun 24 01:31:49 2018 -> info -> file -> alerta_comando "/alerta borrar 3" ejecutado
+Sun Jun 24 01:32:43 2018 -> error -> Alerta -> borrar : chatId: 7457541 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:33:55 2018 -> error -> Alerta -> borrar : chatId: 7457541 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:34:20 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:34:28 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:34:49 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:37:41 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:38:10 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:38:54 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:39:49 2018 -> info -> comprobando hilo
+Sun Jun 24 01:40:15 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:40:36 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:41:03 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:41:59 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:46:51 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:47:55 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'id'
+Sun Jun 24 01:49:55 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'DataFrame' object is not callable
+Sun Jun 24 01:51:39 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 01:58:23 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> name 'subset' is not defined
+Sun Jun 24 01:58:42 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> name 'subset' is not defined
+Sun Jun 24 02:01:32 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> name 'subset' is not defined
+Sun Jun 24 02:05:38 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> __call__() takes from 1 to 2 positional arguments but 3 were given
+Sun Jun 24 02:06:02 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> unsupported operand type(s) for &: 'int' and 'str'
+Sun Jun 24 02:06:11 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> No axis named True for object type <class 'pandas.core.frame.DataFrame'>
+Sun Jun 24 02:06:18 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> No axis named True for object type <class 'pandas.core.frame.DataFrame'>
+Sun Jun 24 02:09:53 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'DataFrame' object has no attribute 'id'
+Sun Jun 24 02:10:50 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'DataFrame' object has no attribute 'id'
+Sun Jun 24 02:11:28 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'id'
+Sun Jun 24 02:12:18 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> Index id invalid
+Sun Jun 24 02:13:03 2018 -> info -> comprobando hilo
+Sun Jun 24 02:18:10 2018 -> info -> comprobando hilo
+Sun Jun 24 02:18:18 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Sun Jun 24 02:18:49 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> Index id invalid
+Sun Jun 24 02:19:34 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> Index id invalid
+Sun Jun 24 02:19:54 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> Index id invalid
+Sun Jun 24 02:22:09 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'id'
+Sun Jun 24 02:22:56 2018 -> info -> comprobando hilo
+Sun Jun 24 02:23:03 2018 -> info -> file -> alerta_comando "/alerta borrar 3" ejecutado
+Sun Jun 24 02:23:56 2018 -> info -> comprobando hilo
+Sun Jun 24 02:30:17 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> to_csv() got an unexpected keyword argument 'index_col'
+Sun Jun 24 02:31:30 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['id'] not in index"
+Sun Jun 24 02:33:36 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:34:45 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:34:57 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:35:25 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:35:49 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:36:14 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:37:31 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> operands could not be broadcast together with shapes (21,) (3,) 
+Sun Jun 24 02:37:56 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:38:07 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:41:11 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of a Series is ambiguous. Use a.empty, a.bool(), a.item(), a.any() or a.all().
+Sun Jun 24 02:42:27 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'DataFrame' object has no attribute 'Id'
+Sun Jun 24 02:55:09 2018 -> info -> comprobando hilo
+Sun Jun 24 02:55:15 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Sun Jun 24 02:55:54 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Sun Jun 24 02:56:09 2018 -> info -> comprobando hilo
+Sun Jun 24 02:56:44 2018 -> info -> comprobando hilo
+Sun Jun 24 02:56:57 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Sun Jun 24 02:57:17 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 02:57:36 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Sun Jun 24 02:57:44 2018 -> info -> comprobando hilo
+Sun Jun 24 02:58:44 2018 -> info -> comprobando hilo
+Sun Jun 24 02:59:44 2018 -> info -> comprobando hilo
+Sun Jun 24 03:00:44 2018 -> info -> comprobando hilo
+Sun Jun 24 03:01:44 2018 -> info -> comprobando hilo
+Sun Jun 24 03:02:44 2018 -> info -> comprobando hilo
+Sun Jun 24 11:29:22 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'Id'
+Sun Jun 24 11:30:03 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'Id'
+Sun Jun 24 11:30:29 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'Id'
+Sun Jun 24 11:30:48 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'Id'
+Sun Jun 24 11:37:08 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> 'Id'
+Sun Jun 24 11:39:34 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Sun Jun 24 11:41:40 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Sun Jun 24 11:41:47 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Sun Jun 24 11:44:00 2018 -> info -> comprobando hilo
+Sun Jun 24 11:44:07 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Sun Jun 24 11:44:23 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Sun Jun 24 11:44:31 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Sun Jun 24 11:44:34 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 11:45:00 2018 -> info -> comprobando hilo
+Sun Jun 24 11:46:00 2018 -> info -> comprobando hilo
+Sun Jun 24 11:52:44 2018 -> info -> comprobando hilo
+Sun Jun 24 11:52:55 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()
+Sun Jun 24 12:01:30 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: 2 -> name 'Id' is not defined
+Sun Jun 24 12:01:39 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> invalid type comparison
+Sun Jun 24 12:08:39 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> 'DataFrame' object is not callable
+Sun Jun 24 12:08:48 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> 'DataFrame' object is not callable
+Sun Jun 24 12:15:45 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> 'Id'
+Sun Jun 24 13:09:41 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando Empty DataFrame
+Columns: [Id, chatId, empresa, modificador, valor]
+Index: []
+Sun Jun 24 13:28:02 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   2  7457541   googl           <   1000
+Sun Jun 24 13:28:22 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando     Id   chatId empresa modificador  valor
+0  111  7457541    msft           <   1000
+Sun Jun 24 13:34:57 2018 -> info -> comprobando hilo
+Sun Jun 24 13:35:05 2018 -> info -> file -> alerta_comando "/alerta borrar 8" ejecutado
+Sun Jun 24 13:35:57 2018 -> info -> comprobando hilo
+Sun Jun 24 13:36:36 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+7   8  7457541    aapl           <   1000
+Sun Jun 24 13:41:37 2018 -> info -> comprobando hilo
+Sun Jun 24 13:41:46 2018 -> info -> file -> alerta_comando "/alerta borrar 8" ejecutado
+Sun Jun 24 13:42:05 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 13:42:11 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['Id'] not in index"
+Sun Jun 24 13:42:37 2018 -> info -> comprobando hilo
+Sun Jun 24 13:43:37 2018 -> info -> comprobando hilo
+Sun Jun 24 13:44:37 2018 -> info -> comprobando hilo
+Sun Jun 24 13:45:37 2018 -> info -> comprobando hilo
+Sun Jun 24 13:46:37 2018 -> info -> comprobando hilo
+Sun Jun 24 13:46:47 2018 -> info -> comprobando hilo
+Sun Jun 24 13:46:56 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['Id'] not in index"
+Sun Jun 24 13:47:00 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['Id'] not in index"
+Sun Jun 24 13:47:05 2018 -> info -> file -> alerta_comando "/alerta borrar" ejecutado
+Sun Jun 24 13:47:11 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 13:47:11 2018 -> error -> Alerta -> borrar_todo : chatId: 7457541 -> Index Id invalid
+Sun Jun 24 13:47:11 2018 -> error -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Sun Jun 24 14:29:11 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['Id'] not in index"
+Mon Jun 25 01:35:43 2018 -> info -> Alerta -> add -> alerta añadida
+Mon Jun 25 01:35:58 2018 -> info -> Alerta -> add -> alerta añadida
+Mon Jun 25 01:36:15 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 08:38:11 2018 -> error -> file: noticias_comando ->  'int' object is not iterable
+Tue Jun 26 08:39:48 2018 -> error -> file: noticias_comando ->  Object of type 'int64' is not JSON serializable
+Tue Jun 26 08:41:11 2018 -> error -> file: noticias_comando ->  Object of type 'int64' is not JSON serializable
+Tue Jun 26 08:45:58 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando     Id   chatId empresa modificador  valor
+0  900  7457541    MSFT           <   1000
+Tue Jun 26 08:45:58 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   2  7457541   GOOGL           >   1000
+Tue Jun 26 08:47:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   3  7457541      FB           <   1000
+Tue Jun 26 08:47:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   4  7457541    AAPL           <   1000
+Tue Jun 26 08:47:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+3   8  7457541    AAPL           <   1000
+Tue Jun 26 08:47:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+3   9  7457541    AAPL           <   9000
+Tue Jun 26 08:47:01 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 08:47:59 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 08:48:59 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 08:50:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 08:50:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 08:50:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 08:50:01 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 08:53:02 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Tue Jun 26 08:53:12 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 08:53:12 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 08:53:12 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 08:53:12 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 08:53:36 2018 -> error -> file -> alerta_comando comando mal introducido
+Tue Jun 26 20:02:28 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 20:02:28 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 20:02:29 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 20:02:29 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 20:44:51 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Tue Jun 26 20:45:06 2018 -> error -> file -> alerta_comando comando mal introducido
+Tue Jun 26 21:21:59 2018 -> error -> file -> alerta_comando comando mal introducido
+Tue Jun 26 21:22:54 2018 -> error -> file -> alerta_comando comando mal introducido
+Tue Jun 26 21:23:35 2018 -> error -> file -> alerta_comando comando mal introducido
+Tue Jun 26 21:30:30 2018 -> error -> file -> alerta_comando comando mal introducido
+Tue Jun 26 21:35:25 2018 -> error -> file -> alerta_comando comando mal introducido
+Tue Jun 26 22:10:44 2018 -> info -> file -> alerta_comando "/alerta lsitar" ejecutado
+Tue Jun 26 22:11:05 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 22:11:05 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 22:11:06 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 22:11:06 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 22:11:26 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Tue Jun 26 22:11:35 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Tue Jun 26 22:11:38 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['Id'] not in index"
+Tue Jun 26 22:12:06 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 22:12:07 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 22:12:07 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 22:12:07 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 22:12:47 2018 -> info -> Accion -> valor : Ultima cotización de msft a fecha 2018-06-26 es 99.0800 USD
+Tue Jun 26 22:25:56 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 22:27:18 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:27:24 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 22:27:49 2018 -> info -> Accion -> valor : Ultima cotización de googl a fecha 2018-06-26 es 1132.6200 USD
+Tue Jun 26 22:27:58 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 22:28:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:28:45 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Tue Jun 26 22:29:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:30:19 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:31:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:32:19 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:33:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:34:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:35:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:35:58 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 22:36:21 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:37:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:38:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:39:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:40:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:41:20 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:42:06 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:43:10 2018 -> error -> file: alerta_hilo ->  Timed out
+Tue Jun 26 22:44:11 2018 -> error -> file: alerta_hilo ->  Timed out
+Tue Jun 26 22:45:07 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:46:06 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:47:06 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:48:06 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:49:06 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:50:01 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:51:01 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:51:36 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:52:17 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:53:22 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:54:21 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:55:22 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:56:21 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:57:21 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:58:22 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 22:59:21 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:00:22 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:01:21 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:01:44 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:02:50 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:03:50 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:04:50 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:06:04 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:07:03 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:08:03 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:10:02 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:10:47 2018 -> error -> file: alerta_hilo ->  Chat not found
+Tue Jun 26 23:10:47 2018 -> info -> Alerta -> borrar : chatId: 7457543 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+4   8  7457543    AAPL           <  2000.0
+Tue Jun 26 23:10:47 2018 -> info -> file: alerta_hilo ->  alerta borrada, el chat no existe
+Tue Jun 26 23:11:46 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+5  10  7457541   googl           >  1000.0
+Tue Jun 26 23:11:46 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+5  11  7457541   googl           >  1001.0
+Tue Jun 26 23:12:03 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Tue Jun 26 23:16:59 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 23:16:59 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 23:16:59 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 23:16:59 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 23:17:10 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:17:29 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Tue Jun 26 23:17:37 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Tue Jun 26 23:20:19 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:20:26 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:20:30 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:20:36 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['Id'] not in index"
+Tue Jun 26 23:20:42 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:20:58 2018 -> error -> Alerta -> listar : chatId: 7457541 -> "['Id'] not in index"
+Tue Jun 26 23:21:38 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:22:24 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:24:29 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:25:04 2018 -> error -> Alerta -> add -> 'Id'
+Tue Jun 26 23:25:19 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:25:56 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 23:25:56 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 23:25:56 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 23:25:57 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 23:25:57 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   9  7457541    AAPL           <   2000
+Tue Jun 26 23:26:31 2018 -> info -> file -> alerta_comando "/alerta borrar todo" ejecutado
+Tue Jun 26 23:26:39 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Tue Jun 26 23:28:34 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 23:28:34 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 23:28:34 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 23:28:34 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 23:28:36 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Tue Jun 26 23:28:53 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:29:28 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+0   1  7457541   GOOGL           >  1000.0
+Tue Jun 26 23:29:48 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:29:57 2018 -> error -> Accion -> valor : empresa: cisco -> 'Time Series (Daily)'
+Tue Jun 26 23:30:15 2018 -> info -> Accion -> valor : Ultima cotización de csco a fecha 2018-06-26 es 42.5500 USD
+Tue Jun 26 23:30:33 2018 -> info -> file -> alerta_comando "/alerta borrar 1" ejecutado
+Tue Jun 26 23:33:55 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Tue Jun 26 23:34:10 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:34:46 2018 -> info -> Accion -> valor : Ultima cotización de csco a fecha 2018-06-26 es 42.5500 USD
+Tue Jun 26 23:34:48 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    CSCO           >   10.0
+Tue Jun 26 23:35:29 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:35:47 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    CSCO           >   10.0
+Tue Jun 26 23:37:51 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 23:37:51 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 23:37:51 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 23:37:51 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 23:40:06 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Tue Jun 26 23:40:33 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:40:47 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+0   1  7457541    AAPL           <  1000.0
+Tue Jun 26 23:42:05 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:42:38 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:42:49 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541   GOOGL           >    1.0
+Tue Jun 26 23:42:49 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   2  7457541    AAPL           >    1.0
+Tue Jun 26 23:48:58 2018 -> info -> file -> alerta_comando "/alerta borrar 3" ejecutado
+Tue Jun 26 23:48:58 2018 -> error -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> invalid type comparison
+Tue Jun 26 23:48:58 2018 -> error -> file -> alerta_comando "/alerta borrar 3" ejecutado
+Tue Jun 26 23:49:46 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Tue Jun 26 23:49:46 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Tue Jun 26 23:49:46 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Tue Jun 26 23:49:46 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Tue Jun 26 23:58:55 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Tue Jun 26 23:58:55 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   2  7457541   GOOGL           <   1000
+Tue Jun 26 23:59:14 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:59:21 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:59:22 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:59:23 2018 -> info -> Alerta -> add -> alerta añadida
+Tue Jun 26 23:59:26 2018 -> info -> file -> alerta_comando "/alerta borrar 8" ejecutado
+Tue Jun 26 23:59:27 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3   8  7457541    MSFT           <  1000.0
+Tue Jun 26 23:59:52 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3   9  7457541    MSFT           <  1001.0
+Tue Jun 26 23:59:52 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3  10  7457541    MSFT           <  1002.0
+Tue Jun 26 23:59:52 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3  11  7457541    MSFT           <  1003.0

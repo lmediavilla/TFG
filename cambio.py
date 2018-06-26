@@ -12,6 +12,8 @@ class Bolsa:
         with open('./token2.txt', 'rU') as f:
             self.api = f.readline()
             #print(f'API2-> {self.api}')
+            #para linux
+            self.api = self.api.rstrip('\n')
             f.close()
     def cambio(self, moneda1, moneda2):
         ###debug###
