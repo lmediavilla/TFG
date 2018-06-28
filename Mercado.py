@@ -52,7 +52,7 @@ class Accion:
                 #print(f'dataForAllDays -> {n} -> {respuesta}')
                 break
             cierre = respuesta['4. close']
-            mensaje = f'Ultima cotización de {empresa} a fecha {fecha} es {cierre} USD'
+            mensaje = f'Ultima cotización de *{empresa}* a fecha {fecha} es *{cierre}* USD'
             print(mensaje)
             self.Log.log(f"Accion -> valor : Ultima cotización de {empresa} a fecha {fecha} es {cierre} USD")
             time.sleep(1)

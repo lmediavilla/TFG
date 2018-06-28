@@ -656,3 +656,187 @@ Tue Jun 26 23:59:52 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <buil
 3  10  7457541    MSFT           <  1002.0
 Tue Jun 26 23:59:52 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
 3  11  7457541    MSFT           <  1003.0
+Wed Jun 27 19:56:13 2018 -> info -> Bolsa -> cambio : MXN equivale a 0.229522 TRY fecha del valor 27-06-2018 19:56:09
+Wed Jun 27 19:56:24 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/26/5b31d59d46163f4faa8b45a2.html', 'http://www.expansion.com/mercados/2018/06/27/5b32c38fe5fdea9e318b45c3.html', 'http://www.expansion.com/mercados/2018/06/27/5b32a1f5e5fdea1a168b45c6.html', 'http://videos.expansion.com/v/0_tydp374i-videoanalisis-tecnico-rebote-de-gato-muerto-en-el-ibex-35?uetv_pl=actualidad&count=0', 'http://www.expansion.com/mercados/2018/06/27/5b3239ab22601db5698b45cf.html', 'http://www.expansion.com/mercados/2018/06/27/5b329b09e5fdeab61f8b45b4.html', 'http://videos.expansion.com/v/0_06a8arqv-analisis-semanal-de-economia-y-mercados-27-06-2018?uetv_pl=banca-march&count=0', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32172122601d53018b45fe.html', 'http://www.expansion.com/mercados/renta-fija/2018/06/26/5b31ef4046163ff3b58b45b3.html', 'http://www.expansion.com/mercados/2018/06/26/5b322ea2268e3e0d6c8b45ea.html']
+Wed Jun 27 19:56:38 2018 -> info -> Accion -> valor : Ultima cotización de csco a fecha 2018-06-27 es 42.5500 USD
+Wed Jun 27 19:56:43 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 20:00:04 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 20:00:37 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 20:00:46 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:00:59 2018 -> info -> Accion -> valor : Ultima cotización de googl a fecha 2018-06-27 es 1125.7100 USD
+Wed Jun 27 20:01:40 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3   8  7457541   GOOGL           >  1000.0
+Wed Jun 27 20:02:04 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:02:11 2018 -> info -> file -> alerta_comando "/alerta borrar 8" ejecutado
+Wed Jun 27 20:02:11 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3   8  7457541   GOOGL           >  1000.0
+Wed Jun 27 20:02:16 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:02:20 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:02:25 2018 -> info -> file -> alerta_comando "/alerta borrar 8" ejecutado
+Wed Jun 27 20:02:25 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3   8  7457541   GOOGL           >  1000.0
+Wed Jun 27 20:02:32 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:02:33 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:02:35 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:02:40 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+3   9  7457541   GOOGL           >  1001.0
+Wed Jun 27 20:02:40 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Wed Jun 27 20:05:09 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/26/5b31d59d46163f4faa8b45a2.html', 'http://www.expansion.com/mercados/2018/06/27/5b32c38fe5fdea9e318b45c3.html', 'http://www.expansion.com/mercados/2018/06/27/5b32a1f5e5fdea1a168b45c6.html', 'http://videos.expansion.com/v/0_tydp374i-videoanalisis-tecnico-rebote-de-gato-muerto-en-el-ibex-35?uetv_pl=actualidad&count=0', 'http://www.expansion.com/mercados/2018/06/27/5b3239ab22601db5698b45cf.html', 'http://www.expansion.com/mercados/2018/06/27/5b329b09e5fdeab61f8b45b4.html', 'http://videos.expansion.com/v/0_06a8arqv-analisis-semanal-de-economia-y-mercados-27-06-2018?uetv_pl=banca-march&count=0', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32172122601d53018b45fe.html', 'http://www.expansion.com/mercados/renta-fija/2018/06/26/5b31ef4046163ff3b58b45b3.html', 'http://www.expansion.com/mercados/2018/06/26/5b322ea2268e3e0d6c8b45ea.html']
+Wed Jun 27 20:05:13 2018 -> info -> Noticias -> rss : ['https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530119227_290426.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530107797_974502.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530092552_256691.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530078399_405990.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529937762_506302.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530024764_265567.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530020918_186344.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530014892_494285.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529935268_873047.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1529992010_859340.html#?ref=rss&format=simple&link=link']
+Wed Jun 27 20:05:15 2018 -> info -> Noticias -> rss : ['https://www.abc.es/economia/abci-bbva-refuerza-independencia-comisiones-consejo-201806271945_noticia.html', 'https://www.abc.es/economia/abci-fomento-defiende-compromiso-tras-ataques-201806271714_noticia.html', 'https://www.abc.es/economia/abci-siemens-gamesa-iberdrola-reconducen-disputas-macrocontrato-brasil-201806271706_noticia.html', 'https://www.abc.es/economia/abci-consejo-administracion-corte-ingles-verde-comision-nombramientos-y-retribuciones-201806271706_noticia.html', 'https://www.abc.es/economia/abci-cnmc-multa-6-millones-euros-viesgo-alterar-precios-mercado-201806271646_noticia.html', 'https://www.abc.es/economia/abci-jordi-sevilla-no-mejor-estado-gasta-39-por-ciento-38-por-ciento-201806271641_noticia.html', 'https://www.abc.es/economia/abci-economista-busca-nuevo-para-fortalecer-expansion-201806271630_noticia.html', 'https://www.abc.es/economia/abci-gobierno-apuesta-impulsar-negociaciones-controladores-aereos-201806271524_noticia.html', 'https://www.abc.es/economia/abci-trump-anuncia-plan-para-restringir-inversiones-chinas-tecnologicas-estadounidenses-201806271436_noticia.html', 'https://www.abc.es/economia/abci-nada-para-siempre-afirma-reynes-sobre-cambio-sede-natural-201806271410_noticia.html']
+Wed Jun 27 20:05:17 2018 -> info -> Noticias -> rss : ['http://www.elmundo.es/economia/2018/06/27/5b3350f946163fd0408b4617.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b33ad72468aeb5b238b463c.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b326fdaca474186188b4578.html', 'http://www.elmundo.es/economia/2018/06/27/5b328a05468aeb9e338b45a1.html', 'http://www.elmundo.es/economia/2018/06/27/5b33ba4e468aeb2a0d8b4650.html', 'http://www.elmundo.es/economia/2018/06/27/5b3346b346163f60918b45b3.html', 'http://www.elmundo.es/economia/2018/06/27/5b3293de22601d3e2d8b45f3.html', 'http://www.elmundo.es/economia/empresas/2018/06/27/5b33becee5fdeaa5288b4654.html', 'http://www.elmundo.es/comunidad-valenciana/castellon/2018/06/27/5b33bc3a468aeb83118b4675.html', 'http://www.elmundo.es/economia/2018/06/27/5b33668c46163f9b9f8b45a1.html']
+Wed Jun 27 20:05:23 2018 -> info -> Noticias -> rss : ['http://www.elmundo.es/economia/2018/06/27/5b3350f946163fd0408b4617.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b33ad72468aeb5b238b463c.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b326fdaca474186188b4578.html', 'http://www.elmundo.es/economia/2018/06/27/5b328a05468aeb9e338b45a1.html', 'http://www.elmundo.es/economia/2018/06/27/5b33ba4e468aeb2a0d8b4650.html', 'http://www.elmundo.es/economia/2018/06/27/5b3346b346163f60918b45b3.html', 'http://www.elmundo.es/economia/2018/06/27/5b3293de22601d3e2d8b45f3.html', 'http://www.elmundo.es/economia/empresas/2018/06/27/5b33becee5fdeaa5288b4654.html', 'http://www.elmundo.es/comunidad-valenciana/castellon/2018/06/27/5b33bc3a468aeb83118b4675.html', 'http://www.elmundo.es/economia/2018/06/27/5b33668c46163f9b9f8b45a1.html']
+Wed Jun 27 20:05:24 2018 -> info -> Noticias -> rss : ['http://www.elmundo.es/economia/2018/06/27/5b3350f946163fd0408b4617.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b33ad72468aeb5b238b463c.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b326fdaca474186188b4578.html', 'http://www.elmundo.es/economia/2018/06/27/5b328a05468aeb9e338b45a1.html', 'http://www.elmundo.es/economia/2018/06/27/5b33ba4e468aeb2a0d8b4650.html', 'http://www.elmundo.es/economia/2018/06/27/5b3346b346163f60918b45b3.html', 'http://www.elmundo.es/economia/2018/06/27/5b3293de22601d3e2d8b45f3.html', 'http://www.elmundo.es/economia/empresas/2018/06/27/5b33becee5fdeaa5288b4654.html', 'http://www.elmundo.es/comunidad-valenciana/castellon/2018/06/27/5b33bc3a468aeb83118b4675.html', 'http://www.elmundo.es/economia/2018/06/27/5b33668c46163f9b9f8b45a1.html']
+Wed Jun 27 20:05:52 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/26/5b31d59d46163f4faa8b45a2.html', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32172122601d53018b45fe.html', 'http://www.expansion.com/mercados/renta-fija/2018/06/26/5b31ef4046163ff3b58b45b3.html', 'http://www.expansion.com/mercados/2018/06/26/5b322ea2268e3e0d6c8b45ea.html', 'http://www.expansion.com/mercados/2018/06/26/5b3226ba46163f0aa28b45fb.html', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32261b22601d0b178b45a5.html', 'http://www.expansion.com/mercados/2018/06/26/5b31ff7246163fa3b48b45c7.html', 'http://www.expansion.com/mercados/2018/06/26/5b31fc9446163f1da98b45d3.html', 'http://www.expansion.com/mercados/2018/06/26/5b3130a5e2704e49818b45a3.html', 'http://www.expansion.com/mercados/2018/06/25/5b315397ca4741e3428b45eb.html']
+Wed Jun 27 20:11:59 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 20:12:32 2018 -> info -> Accion -> valor : Ultima cotización de csco a fecha 2018-06-27 es 42.5000 USD
+Wed Jun 27 20:46:07 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 20:48:29 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 20:48:42 2018 -> info -> Bolsa -> cambio : USD equivale a 0.865366 EUR fecha del valor 27-06-2018 20:48:38
+Wed Jun 27 20:51:25 2018 -> info -> Bolsa -> cambio : LTC equivale a 0.013175 BTC fecha del valor 27-06-2018 20:51:21
+Wed Jun 27 20:51:40 2018 -> info -> Accion -> valor : Ultima cotización de csco a fecha 2018-06-27 es 42.5400 USD
+Wed Jun 27 20:55:24 2018 -> info -> Noticias -> rss : ['https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530119227_290426.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530107797_974502.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530092552_256691.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530078399_405990.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529937762_506302.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530024764_265567.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530020918_186344.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530014892_494285.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529935268_873047.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1529992010_859340.html#?ref=rss&format=simple&link=link']
+Wed Jun 27 20:55:24 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 20:57:11 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 20:57:13 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/26/5b31d59d46163f4faa8b45a2.html', 'http://www.expansion.com/mercados/2018/06/27/5b32c38fe5fdea9e318b45c3.html', 'http://www.expansion.com/mercados/2018/06/27/5b32a1f5e5fdea1a168b45c6.html', 'http://videos.expansion.com/v/0_tydp374i-videoanalisis-tecnico-rebote-de-gato-muerto-en-el-ibex-35?uetv_pl=actualidad&count=0', 'http://www.expansion.com/mercados/2018/06/27/5b3239ab22601db5698b45cf.html', 'http://www.expansion.com/mercados/2018/06/27/5b329b09e5fdeab61f8b45b4.html', 'http://videos.expansion.com/v/0_06a8arqv-analisis-semanal-de-economia-y-mercados-27-06-2018?uetv_pl=banca-march&count=0', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32172122601d53018b45fe.html', 'http://www.expansion.com/mercados/renta-fija/2018/06/26/5b31ef4046163ff3b58b45b3.html', 'http://www.expansion.com/mercados/2018/06/26/5b322ea2268e3e0d6c8b45ea.html']
+Wed Jun 27 20:58:29 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 20:58:30 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/26/5b31d59d46163f4faa8b45a2.html', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32172122601d53018b45fe.html', 'http://www.expansion.com/mercados/renta-fija/2018/06/26/5b31ef4046163ff3b58b45b3.html', 'http://www.expansion.com/mercados/2018/06/26/5b322ea2268e3e0d6c8b45ea.html', 'http://www.expansion.com/mercados/2018/06/26/5b3226ba46163f0aa28b45fb.html', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32261b22601d0b178b45a5.html', 'http://www.expansion.com/mercados/2018/06/26/5b31ff7246163fa3b48b45c7.html', 'http://www.expansion.com/mercados/2018/06/26/5b31fc9446163f1da98b45d3.html', 'http://www.expansion.com/mercados/2018/06/26/5b3130a5e2704e49818b45a3.html', 'http://www.expansion.com/mercados/2018/06/25/5b315397ca4741e3428b45eb.html']
+Wed Jun 27 20:58:34 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 20:58:43 2018 -> info -> Alerta -> add -> alerta añadida
+Wed Jun 27 20:59:27 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+3   8  7457541    CSCO           >   40.0
+Wed Jun 27 21:07:31 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 21:07:31 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 21:07:38 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 21:07:38 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 21:09:15 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 21:09:23 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/26/5b31d59d46163f4faa8b45a2.html', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32172122601d53018b45fe.html', 'http://www.expansion.com/mercados/renta-fija/2018/06/26/5b31ef4046163ff3b58b45b3.html', 'http://www.expansion.com/mercados/2018/06/26/5b322ea2268e3e0d6c8b45ea.html', 'http://www.expansion.com/mercados/2018/06/26/5b3226ba46163f0aa28b45fb.html', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32261b22601d0b178b45a5.html', 'http://www.expansion.com/mercados/2018/06/26/5b31ff7246163fa3b48b45c7.html', 'http://www.expansion.com/mercados/2018/06/26/5b31fc9446163f1da98b45d3.html', 'http://www.expansion.com/mercados/2018/06/26/5b3130a5e2704e49818b45a3.html', 'http://www.expansion.com/mercados/2018/06/25/5b315397ca4741e3428b45eb.html']
+Wed Jun 27 21:09:28 2018 -> info -> Noticias -> rss : ['https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530119227_290426.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530107797_974502.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530092552_256691.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530078399_405990.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529937762_506302.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530024764_265567.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530020918_186344.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530014892_494285.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529935268_873047.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1529992010_859340.html#?ref=rss&format=simple&link=link']
+Wed Jun 27 21:09:49 2018 -> info -> Accion -> valor : Ultima cotización de aapl a fecha 2018-06-27 es 184.7800 USD
+Wed Jun 27 21:09:57 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 21:09:57 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 21:10:05 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 21:10:05 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 21:10:15 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Wed Jun 27 21:15:48 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 21:15:55 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 21:15:55 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 21:24:18 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   1  7457541    MSFT           <   1000
+Wed Jun 27 21:24:19 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   3  7457541      FB           <   1000
+Wed Jun 27 21:24:19 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+1   4  7457541    AAPL           <   1000
+Wed Jun 27 21:24:19 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+4   8  7457541    AAPL           <   1000
+Wed Jun 27 22:05:56 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 22:06:01 2018 -> info -> Noticias -> rss : ['https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530119227_290426.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530107797_974502.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530092552_256691.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530078399_405990.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529937762_506302.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530024764_265567.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530020918_186344.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530014892_494285.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529935268_873047.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1529992010_859340.html#?ref=rss&format=simple&link=link']
+Wed Jun 27 22:16:48 2018 -> error -> Accion -> valor : empresa: ACCIONA -> 'Time Series (Daily)'
+Wed Jun 27 22:16:55 2018 -> info -> Accion -> valor : Ultima cotización de csco a fecha 2018-06-27 es 42.3300 USD
+Wed Jun 27 22:17:15 2018 -> info -> Accion -> valor : Ultima cotización de acs a fecha 2018-06-26 es 0.0950 USD
+Wed Jun 27 22:27:07 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 22:27:07 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 22:27:15 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 22:27:15 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 22:27:34 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Wed Jun 27 22:27:34 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   2  7457541   GOOGL           <   1000
+Wed Jun 27 22:29:48 2018 -> info -> Accion -> valor : Ultima cotización de aapl a fecha 2018-06-27 es 184.1600 USD
+Wed Jun 27 22:46:37 2018 -> info -> Accion -> valor : Ultima cotización de aapl a fecha 2018-06-27 es 184.1600 USD
+Wed Jun 27 22:47:00 2018 -> info -> Accion -> valor : Ultima cotización de csco a fecha 2018-06-27 es 42.3300 USD
+Wed Jun 27 22:47:32 2018 -> info -> Accion -> valor : Ultima cotización de ^IBEX a fecha 2018-06-27 es 9658.5996 USD
+Wed Jun 27 22:50:22 2018 -> info -> Accion -> valor : Ultima cotización de aapl a fecha 2018-06-27 es 184.1600 USD
+Wed Jun 27 22:51:51 2018 -> info -> Accion -> valor : Ultima cotización de CSCO a fecha 2018-06-27 es 42.3300 USD
+Wed Jun 27 23:23:21 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 23:23:21 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 23:30:26 2018 -> error -> file: alerta_hilo ->  Chat not found
+Wed Jun 27 23:30:26 2018 -> info -> Alerta -> borrar : chatId: 7457542 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   5  7457542   GOOGL           <   1000
+Wed Jun 27 23:30:26 2018 -> info -> file: alerta_hilo ->  alerta borrada, el chat no existe
+Wed Jun 27 23:31:26 2018 -> error -> file: alerta_hilo ->  Chat not found
+Wed Jun 27 23:31:26 2018 -> info -> Alerta -> borrar : chatId: 7457544 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   6  7457544   GOOGL           <   1000
+Wed Jun 27 23:31:26 2018 -> info -> file: alerta_hilo ->  alerta borrada, el chat no existe
+Wed Jun 27 23:32:31 2018 -> error -> file: alerta_hilo ->  Chat not found
+Wed Jun 27 23:32:31 2018 -> info -> Alerta -> borrar : chatId: 7457542 id: <built-in function id> -> borrando    Id   chatId empresa modificador  valor
+0   7  7457542   GOOGL           <   1000
+Wed Jun 27 23:32:31 2018 -> info -> file: alerta_hilo ->  alerta borrada, el chat no existe
+Wed Jun 27 23:38:46 2018 -> info -> Bolsa -> cambio : EUR equivale a 1.15599 USD fecha del valor 27-06-2018 23:38:42
+Wed Jun 27 23:39:16 2018 -> info -> Bolsa -> cambio : BTC equivale a 5304.3836 EUR fecha del valor 27-06-2018 23:39:12
+Wed Jun 27 23:39:18 2018 -> info -> Bolsa -> cambio : EUR equivale a 0.881305 GBP fecha del valor 27-06-2018 23:39:14
+Wed Jun 27 23:39:21 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Wed Jun 27 23:39:22 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Wed Jun 27 23:39:29 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 23:51:09 2018 -> info -> Bolsa -> cambio : BTC equivale a 5300.74 EUR fecha del valor 27-06-2018 23:51:05
+Wed Jun 27 23:51:09 2018 -> error -> file -> cambio_comando -> local variable 'reply_markup' referenced before assignment
+Wed Jun 27 23:51:11 2018 -> info -> Bolsa -> cambio : EUR equivale a 0.88126 GBP fecha del valor 27-06-2018 23:51:07
+Wed Jun 27 23:51:11 2018 -> error -> file -> cambio_comando -> local variable 'reply_markup' referenced before assignment
+Wed Jun 27 23:51:12 2018 -> info -> Bolsa -> cambio : EUR equivale a 1.15606 USD fecha del valor 27-06-2018 23:51:08
+Wed Jun 27 23:51:12 2018 -> error -> file -> cambio_comando -> local variable 'reply_markup' referenced before assignment
+Wed Jun 27 23:54:04 2018 -> info -> Bolsa -> cambio : EUR equivale a 1.15604 USD fecha del valor 27-06-2018 23:54:00
+Wed Jun 27 23:54:06 2018 -> info -> Bolsa -> cambio : EUR equivale a 0.881355 GBP fecha del valor 27-06-2018 23:54:02
+Wed Jun 27 23:54:12 2018 -> info -> Bolsa -> cambio : BTC equivale a 5299.9667 EUR fecha del valor 27-06-2018 23:54:08
+Wed Jun 27 23:56:03 2018 -> info -> Bolsa -> cambio : EUR equivale a 0.881175 GBP fecha del valor 27-06-2018 23:55:59
+Wed Jun 27 23:56:16 2018 -> info -> Bolsa -> cambio : BTC equivale a 5299.2392 EUR fecha del valor 27-06-2018 23:56:12
+Wed Jun 27 23:58:39 2018 -> info -> Bolsa -> cambio : EUR equivale a 1.15604 USD fecha del valor 27-06-2018 23:58:35
+Wed Jun 27 23:58:42 2018 -> info -> Bolsa -> cambio : EUR equivale a 0.881295 GBP fecha del valor 27-06-2018 23:58:38
+Wed Jun 27 23:58:43 2018 -> info -> Bolsa -> cambio : BTC equivale a 5298.3971 EUR fecha del valor 27-06-2018 23:58:39
+Wed Jun 27 23:58:53 2018 -> info -> Bolsa -> cambio : USD equivale a 0.865059 EUR fecha del valor 27-06-2018 23:58:49
+Wed Jun 27 23:58:57 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Wed Jun 27 23:58:58 2018 -> info -> Noticias -> rss : ['http://www.expansion.com/mercados/cronica-bolsa/2018/06/27/5b3325d6e2704e20358b45aa.html', 'http://www.expansion.com/mercados/2018/06/27/5b333f0ce2704e841e8b461e.html', 'http://www.expansion.com/mercados/2018/06/27/5b33474246163f5fab8b457e.html', 'http://www.expansion.com/mercados/2018/06/27/5b32c38fe5fdea9e318b45c3.html', 'http://www.expansion.com/mercados/2018/06/27/5b32a1f5e5fdea1a168b45c6.html', 'http://videos.expansion.com/v/0_tydp374i-videoanalisis-tecnico-rebote-de-gato-muerto-en-el-ibex-35?uetv_pl=actualidad&count=0', 'http://www.expansion.com/mercados/2018/06/27/5b3239ab22601db5698b45cf.html', 'http://www.expansion.com/mercados/2018/06/27/5b329b09e5fdeab61f8b45b4.html', 'http://videos.expansion.com/v/0_06a8arqv-analisis-semanal-de-economia-y-mercados-27-06-2018?uetv_pl=banca-march&count=0', 'http://www.expansion.com/mercados/mab/2018/06/26/5b32172122601d53018b45fe.html']
+Thu Jun 28 00:02:37 2018 -> info -> Bolsa -> cambio : EUR equivale a 0.88113 GBP fecha del valor 28-06-2018 00:02:33
+Thu Jun 28 00:02:39 2018 -> info -> Bolsa -> cambio : BTC equivale a 5303.0205 EUR fecha del valor 28-06-2018 00:02:35
+Thu Jun 28 00:02:40 2018 -> info -> Bolsa -> cambio : EUR equivale a 127.46 JPY fecha del valor 28-06-2018 00:02:36
+Thu Jun 28 00:02:41 2018 -> info -> Bolsa -> cambio : EUR equivale a 1.15593 USD fecha del valor 28-06-2018 00:02:37
+Thu Jun 28 00:02:47 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Thu Jun 28 00:02:47 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Thu Jun 28 00:03:03 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Thu Jun 28 00:03:04 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Thu Jun 28 00:03:34 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Thu Jun 28 00:03:34 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Thu Jun 28 00:05:53 2018 -> info -> Bolsa -> cambio : EUR equivale a 0.88105 GBP fecha del valor 28-06-2018 00:05:49
+Thu Jun 28 00:05:54 2018 -> info -> Bolsa -> cambio : BTC equivale a 5303.4334 EUR fecha del valor 28-06-2018 00:05:50
+Thu Jun 28 00:06:01 2018 -> info -> Bolsa -> cambio : EUR equivale a 1.15586 USD fecha del valor 28-06-2018 00:05:57
+Thu Jun 28 00:06:03 2018 -> info -> Bolsa -> cambio : EUR equivale a 127.4585 JPY fecha del valor 28-06-2018 00:05:59
+Thu Jun 28 00:06:06 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Thu Jun 28 00:06:12 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Thu Jun 28 00:06:15 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Thu Jun 28 00:06:17 2018 -> info -> Noticias -> rss : ['https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530119227_290426.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530107797_974502.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530092552_256691.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/27/mercados/1530078399_405990.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529937762_506302.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530024764_265567.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530020918_186344.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1530014892_494285.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/25/mercados/1529935268_873047.html#?ref=rss&format=simple&link=link', 'https://cincodias.elpais.com/cincodias/2018/06/26/mercados/1529992010_859340.html#?ref=rss&format=simple&link=link']
+Thu Jun 28 00:06:18 2018 -> info -> Noticias -> rss : ['http://www.elmundo.es/economia/2018/06/27/5b3350f946163fd0408b4617.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b33ad72468aeb5b238b463c.html', 'http://www.elmundo.es/economia/macroeconomia/2018/06/27/5b326fdaca474186188b4578.html', 'http://www.elmundo.es/economia/2018/06/27/5b328a05468aeb9e338b45a1.html', 'http://www.elmundo.es/economia/2018/06/27/5b33ba4e468aeb2a0d8b4650.html', 'http://www.elmundo.es/economia/2018/06/27/5b3346b346163f60918b45b3.html', 'http://www.elmundo.es/economia/2018/06/27/5b3293de22601d3e2d8b45f3.html', 'http://www.elmundo.es/economia/empresas/2018/06/27/5b33becee5fdeaa5288b4654.html', 'http://www.elmundo.es/comunidad-valenciana/castellon/2018/06/27/5b33bc3a468aeb83118b4675.html', 'http://www.elmundo.es/economia/2018/06/27/5b33668c46163f9b9f8b45a1.html']
+Thu Jun 28 00:09:35 2018 -> info -> file -> noticias_comando: desplegando teclado /noticias
+Thu Jun 28 00:14:04 2018 -> info -> Accion -> valor : Ultima cotización de AMZN a fecha 2018-06-27 es 1660.5100 USD
+Thu Jun 28 00:15:26 2018 -> info -> Bolsa -> cambio : EUR equivale a 127.4785 JPY fecha del valor 28-06-2018 00:15:21
+Thu Jun 28 00:22:02 2018 -> info -> file -> valor_comando: desplegando teclado /valor
+Thu Jun 28 00:22:04 2018 -> info -> file -> valor_comando: desplegando teclado /valor
+Thu Jun 28 00:22:07 2018 -> info -> Accion -> valor : Ultima cotización de AMZN a fecha 2018-06-27 es 1660.5100 USD
+Thu Jun 28 00:22:12 2018 -> info -> Accion -> valor : Ultima cotización de AAPL a fecha 2018-06-27 es 184.1600 USD
+Thu Jun 28 00:22:18 2018 -> info -> Accion -> valor : Ultima cotización de GOOGL a fecha 2018-06-27 es 1116.9400 USD
+Thu Jun 28 00:22:24 2018 -> info -> Accion -> valor : Ultima cotización de ^IBEX a fecha 2018-06-27 es 9658.5996 USD
+Thu Jun 28 00:22:34 2018 -> info -> Accion -> valor : Ultima cotización de CSCO a fecha 2018-06-27 es 42.3300 USD
+Thu Jun 28 00:22:40 2018 -> info -> file -> alerta_comando "/alerta" ejecutado
+Thu Jun 28 00:22:40 2018 -> info -> file -> alerta_comando: desplegando teclado /alerta
+Thu Jun 28 00:22:50 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:22:55 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:22:58 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+0   1  7457541    AMZN           <  2000.0
+Thu Jun 28 00:23:16 2018 -> info -> file -> alerta_comando "/alerta borrar 2" ejecutado
+Thu Jun 28 00:23:16 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+0   2  7457541   GOOGL           >  2000.0
+Thu Jun 28 00:24:13 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:24:58 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+0   1  7457541    AMZN           <  2000.0
+Thu Jun 28 00:25:09 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:25:10 2018 -> info -> file -> alerta_comando "/alerta borrar todas" ejecutado
+Thu Jun 28 00:25:12 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:26:23 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:27:07 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+1   2  7457541    AMZN           <  2000.0
+Thu Jun 28 00:27:11 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:28:06 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+1   2  7457541    AMZN           <  2000.0
+Thu Jun 28 00:28:45 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:29:41 2018 -> info -> Alerta -> borrar : chatId: 7457541 id: <built-in function id> -> borrando    Id   chatId empresa modificador   valor
+1   2  7457541    AMZN           <  2000.0
+Thu Jun 28 00:30:39 2018 -> info -> Alerta -> add -> alerta añadida
+Thu Jun 28 00:34:51 2018 -> error -> file: alerta_hilo ->  Timed out
+Thu Jun 28 00:35:51 2018 -> error -> file: alerta_hilo ->  Timed out

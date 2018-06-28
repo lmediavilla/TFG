@@ -2,6 +2,8 @@
 
 from telegram.ext import CommandHandler, Updater
 from telegram import ChatAction
+from telegram import ReplyKeyboardMarkup
+from telegram import ParseMode
 from cambio import Bolsa
 from Mercado import Accion
 from Noticias import Noticias
@@ -15,8 +17,19 @@ from Alerta import Alerta
 
 #devolver un hola al usuario
 def hola_comando(bot, update):
-    update.message.reply_text(
-        'Hola {}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor empresa \n/alerta'.format(f'@{update.message.from_user.username}'))
+    custom_keyboard = [['/menu_principal'],['/cambio', '/noticias'],['/valor', '/alerta']]
+    reply_markup = ReplyKeyboardMarkup(custom_keyboard)
+    respuesta = f'Hola @{update.message.from_user.username}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'
+    bot.send_message(update.message.chat_id, text=respuesta, reply_markup=reply_markup)
+    #update.message.reply_text('Hola {}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'.format(f'@{update.message.from_user.username}'))
+
+def comandos_comando(bot, update):
+    custom_keyboard = [['/menu_principal'],['/cambio', '/noticias'],['/valor', '/alerta']]
+    reply_markup = ReplyKeyboardMarkup(custom_keyboard)
+    respuesta = f'Hola @{update.message.from_user.username}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'
+    bot.send_message(update.message.chat_id, text=respuesta, reply_markup=reply_markup)
+    #update.message.reply_text('Hola {}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'.format(f'@{update.message.from_user.username}'))
+
 
 def debug_comando(bot, update):
     print(f'user: @{update.message.from_user.username}')
@@ -29,19 +42,28 @@ def adios_comando(bot, update):
 
 #devolver cambio al usuario
 def cambio_comando(bot, update, args):
+    respuesta = ''
     if len(args) == 0:
-        update.message.reply_text('Los cambios aceptados son entre éste tipo de monedas: \n EUR -> EURO  \n USD -> DOLAR AMERICANO \n JPY -> YEN JAPONES  \nCHF -> FRANCO SUIZO \n AUD -> DOLAR AUSTRALIANO \n CAD -> DOLAR CANADIENSE \n NZD -> DOLAR NEOZENLANDES \n  GBP -> LIBRA INGLESA \n SEK -> CORONA SUECA \n NOK -> CORONA NORUEGA \n MXN -> PEXO MEXICANO \n TRY -> LIRA TURCA \n ZAR -> RAND SUDAFRICANO\n CNH -> YUAN CHINO\n XAU -> ONZA DE ORO \n XAG -> ONZA DE PLATA \nSGD -> DOLAR SINGAPUR \nRUB -> RUBLO RUSO \nHKD -> DOLAR DE HONG KONG \nDKK -> CORONA DANESA \nPLN -> POLACA \n BTC -> BitCoin  (CRIPTO)\nETH -> Etherum  (CRIPTO)\nLTC -> LittleCoin  (CRIPTO)\nXRP -> RIPPLE (CRIPTO) \nDSH -> DASH (CRIPTO) \n BCH -> BITCOIN CASH (CRIPTO)\n')
+        custom_keyboard = [['/menu_principal'],['/cambio'], ['/cambio EUR USD','/CAMBIO EUR GBP'],['/cambio EUR JPY', '/cambio BTC EUR']]
+        reply_markup = ReplyKeyboardMarkup(custom_keyboard)
+        respuesta = 'Los cambios aceptados son entre éste tipo de monedas: \n*EUR* -> EURO  \n*USD* -> DOLAR AMERICANO \n*JPY* -> YEN JAPONES  \n*CHF* -> FRANCO SUIZO \n*AUD* -> DOLAR AUSTRALIANO \n*CAD* -> DOLAR CANADIENSE \n*NZD* -> DOLAR NEOZENLANDES \n*GBP* -> LIBRA INGLESA \n*SEK* -> CORONA SUECA \n*NOK* -> CORONA NORUEGA \n*MXN* -> PEXO MEXICANO \n*TRY* -> LIRA TURCA \n*ZAR* -> RAND SUDAFRICANO\n*CNH* -> YUAN CHINO\n*XAU* -> ONZA DE ORO \n*XAG* -> ONZA DE PLATA \n*SGD* -> DOLAR SINGAPUR \n*RUB* -> RUBLO RUSO \n*HKD* -> DOLAR DE HONG KONG \n*DKK* -> CORONA DANESA \n*PLN* -> POLACA \n*BTC* -> BitCoin  (CRIPTO)\n*ETH* -> Etherum  (CRIPTO)\n*LTC* -> LittleCoin  (CRIPTO)\n*XRP* -> RIPPLE (CRIPTO) \n*DSH* -> DASH (CRIPTO) \n*BCH* -> BITCOIN CASH (CRIPTO)\n'
+        #bot.send_message(update.message.chat_id, text=respuesta, reply_markup=reply_markup)
+        update.message.reply_text(text=respuesta, parse_mode=ParseMode.MARKDOWN,reply_markup=reply_markup)
     if len(args) == 2:
-        moneda1, moneda2 = args
-        moneda1 = moneda1.upper()
-        moneda2 = moneda2.upper()
-        C = Bolsa()
-        update.message.reply_text(C.cambio(moneda1, moneda2))
+        Log = Syslog()
+        try:
+            moneda1, moneda2 = args
+            moneda1 = moneda1.upper()
+            moneda2 = moneda2.upper()
+            C = Bolsa()
+            respuesta = C.cambio(moneda1, moneda2)
+            update.message.reply_text(text=respuesta, parse_mode=ParseMode.MARKDOWN)
+        except Exception as ex:
+            Log.errorlog(f"file -> cambio_comando -> {ex}")
+            print(f"file -> cambio_comando -> {ex}")
+            update.message.reply_text('No se pudo calcular el cambio de moneda')
     else:
-        update.message.reply_text('Comando erroneo, por favor utiliza:\n /cambio moneda1 moneda2')
-
-def cambioayuda_comando(bot, update,):
-        update.message.reply_text('Los cambios aceptados son entre éste tipo de monedas: \n EUR -> EURO  \n USD -> DOLAR AMERICANO \n JPY -> YEN JAPONES  \nCHF -> FRANCO SUIZO \n AUD -> DOLAR AUSTRALIANO \n CAD -> DOLAR CANADIENSE \n NZD -> DOLAR NEOZENLANDES \n  GBP -> LIBRA INGLESA \n SEK -> CORONA SUECA \n NOK -> CORONA NORUEGA \n MXN -> PEXO MEXICANO \n TRY -> LIRA TURCA \n ZAR -> RAND SUDAFRICANO\n CNH -> YUAN CHINO\n XAU -> ONZA DE ORO \n XAG -> ONZA DE PLATA \nSGD -> DOLAR SINGAPUR \nRUB -> RUBLO RUSO \nHKD -> DOLAR DE HONG KONG \nDKK -> CORONA DANESA \nPLN -> POLACA \n BTC -> BitCoin  (CRIPTO)\nETH -> Etherum  (CRIPTO)\nLTC -> LittleCoin  (CRIPTO)\nXRP -> RIPPLE (CRIPTO) \nDSH -> DASH (CRIPTO) \n BCH -> BITCOIN CASH (CRIPTO)\n')        
+        update.message.reply_text('Por favor utiliza:\n /cambio moneda1 moneda2')
 
 #noticias
 def noticias_comando(bot, update, args):
@@ -56,8 +78,10 @@ def noticias_comando(bot, update, args):
             #print(f'C.rss(valor) -> {C.rss(valor)}')
             noticias = C.rss(valor)
             #print(f'file.py noticias -> {noticias}')
+            respuesta = ''
             for i in range(len(noticias)):
                 #print(f'{noticias[i]}')
+                #respuesta = respuesta + noticias[i]
                 update.message.reply_text(f'{noticias[i]}')
             #chequeamos si está vacío
             if not noticias:
@@ -80,7 +104,13 @@ def noticias_comando(bot, update, args):
                 res+=str(Array[i])
                 res+=str('\n')
             #print(f'res: {res}')
-            update.message.reply_text(f'Utiliza /noticias #numero siendo éste el proveedor de noticias\n {res}')
+            respuesta = f'Utiliza /noticias #numero siendo éste el proveedor de noticias\n {res}'
+            custom_keyboard = [['/menu_principal'],['/noticias'],['/noticias 0', '/noticias 1'],['/noticias 2', '/noticias 3']]
+            reply_markup = ReplyKeyboardMarkup(custom_keyboard)
+            print('file -> noticias_comando: desplegando teclado /noticias')
+            Log.log('file -> noticias_comando: desplegando teclado /noticias')
+            bot.send_message(update.message.chat_id, text=f'{respuesta}', reply_markup=reply_markup)
+            reply_markup = ReplyKeyboardMarkup(custom_keyboard)
         except Exception as ex:
             update.message.reply_text(f'file: noticias_comando -> {datetime.datetime.now().time()}: {ex}')
             print(f'file: noticias_comando ->  {ex}')
@@ -88,24 +118,40 @@ def noticias_comando(bot, update, args):
 
 #acción
 def valor_comando(bot, update, args):
+    Log = Syslog()
     if len(args) == 1:
         C = Accion()
+        empresa = args[0]
+        empresa = empresa.upper()
         #print(C.valor(args[0]))
-        update.message.reply_text(C.valor(args[0]))
+        #respuesta = C.valor(empresa)+'\nhttps://finance.yahoo.com/quote/'+f'{args[0]}'
+        update.message.reply_text(C.valor(empresa)+'\nhttps://finance.yahoo.com/quote/'+f'{args[0]}',parse_mode=ParseMode.MARKDOWN)
+
     else:
-        update.message.reply_text('Comando erroneo, por favor utiliza:\n /accion empresa')
+        custom_keyboard = [['/menu_principal'],['/valor'],['/valor AMZN', '/valor AAPL'],['/valor GOOGL', '/valor ^IBEX']]
+        reply_markup = ReplyKeyboardMarkup(custom_keyboard)
+        print('file -> valor_comando: desplegando teclado /valor')
+        Log.log('file -> valor_comando: desplegando teclado /valor')
+        bot.send_message(update.message.chat_id, text=f'Por favor utiliza:\n /valor empresa', reply_markup=reply_markup)
+        reply_markup = ReplyKeyboardMarkup(custom_keyboard)
 
 def alerta_comando(bot, update, args):
     Log = Syslog()
     print(f'argumentos pasados {len(args)}')
     for i in range(len(args)):
         print(f'{i} -> {args[i]}')
-    error = 'Comando erroneo, por favor utiliza:\n/alerta empresa < cantidad -> para crear una alerta \n/alerta listar -> para listar tus alertas \n/alerta borrar todas -> para borrar todas tus alertas \n/alerta borrar empresa < 1000 -> borra esa alerta'
+    error = 'Por favor utiliza:\n/alerta empresa < cantidad -> para crear una alerta \n/alerta listar -> para listar tus alertas \n/alerta borrar todas -> para borrar todas tus alertas \n/alerta borrar empresa < 1000 -> borra esa alerta'
+    uso = 'utiliza:\n/alerta empresa < cantidad -> para crear una alerta \n/alerta listar -> para listar tus alertas \n/alerta borrar todas -> para borrar todas tus alertas \n/alerta borrar empresa < 1000 -> borra esa alerta'
     if len(args) == 0:
         #comando basico
         print('cero')
         Log.log('file -> alerta_comando "/alerta" ejecutado')
-        update.message.reply_text(error)
+        custom_keyboard = [['/menu_principal'],['/alerta'],['/alerta listar'],['/alerta borrar todas'],['/alerta AMZN < 2000','/alerta GOOGL > 2000']]
+        reply_markup = ReplyKeyboardMarkup(custom_keyboard)
+        bot.send_message(update.message.chat_id, text=f'{uso}', reply_markup=reply_markup)
+        reply_markup = ReplyKeyboardMarkup(custom_keyboard)
+        print('file -> alerta_comando: desplegando teclado /alerta')
+        Log.log('file -> alerta_comando: desplegando teclado /alerta')
     elif len(args) == 1:
         #comando listar (como mucho)
         print('uno')
@@ -158,13 +204,15 @@ def alerta_comando(bot, update, args):
         empresa = empresa.upper()
         modificador = args[1]
         valor = float(args[2])
-        if(alerta.add(update.message.chat_id,empresa,modificador,valor)==True):
-            Log.log(f'file -> alerta_comando "/alerta {args[0]} {args[1]} {args[2]} {args[3]}" ejecutado')
-            update.message.reply_text('Alerta añadida')
-            print('Alerta añadida')
-        else:
-            update.message.reply_text('Comando erroneo, por favor utiliza:\n /alerta  empresa > ó < cantidad')
-            print('Alerta no añadida')
+        ##aqui un if
+        print(alerta.add(update.message.chat_id,empresa,modificador,valor))
+        Log.log(f'file -> alerta_comando "/alerta {args[0]} {args[1]} {args[2]} {args[3]}" ejecutado')
+        print(f'file -> alerta_comando "/alerta {args[0]} {args[1]} {args[2]} {args[3]}" ejecutado')
+        update.message.reply_text('Alerta añadida')
+        ##aqui un else
+        print('Alerta añadida')
+        update.message.reply_text('Por favor utiliza:\n /alerta  empresa > ó < cantidad')
+        print('Alerta no añadida')
     else:
         print('no se')
         Log.errorlog('file -> alerta_comando comando mal introducido')
@@ -184,11 +232,8 @@ def alerta_hilo(bot, job):
             valor = float(Respuesta[i][3])
             vactual = float(Respuesta[i][4])
             Id = int(Respuesta[i][5])
-            bot.send_message(chatId,f'Alerta\n{Empresa} {modificador} {valor}\nValor actual: {vactual}')
+            bot.send_message(chatId,f'★Alerta★\n{Empresa} {modificador} {valor}\nValor actual: {vactual}')
             C.borrar(chatId,Id)
-            #print(Respuesta)
-            #devolver respusta chaid, empresa, modificador, valor, valor actual, id a borrar
-            #bot.send_message(chatid, text='<a href="http://link.to/image.png">\u200B</a>Rest of your text here blah blah blah', parse_mode='HTML')
     except Exception as ex:
         print(f'file: alerta_hilo ->  {ex}')
         Log.errorlog(f'file: alerta_hilo ->  {ex}')
@@ -212,11 +257,11 @@ def main(args):
     dispatcher = updater.dispatcher
     dispatcher.add_handler(CommandHandler('noticias',noticias_comando,pass_args = True))
     dispatcher.add_handler(CommandHandler('hola', hola_comando))
+    dispatcher.add_handler(CommandHandler('menu_principal', comandos_comando))
     dispatcher.add_handler(CommandHandler('alerta',alerta_comando,pass_args = True))
     dispatcher.add_handler(CommandHandler('start', hola_comando))
     dispatcher.add_handler(CommandHandler('adios', adios_comando))
     dispatcher.add_handler(CommandHandler('cambio',cambio_comando,pass_args = True))
-    dispatcher.add_handler(CommandHandler('cambioayuda',cambioayuda_comando))
     dispatcher.add_handler(CommandHandler('valor', valor_comando, pass_args = True))
     dispatcher.add_handler(CommandHandler('debug', debug_comando))
     updater.start_polling(clean=True)

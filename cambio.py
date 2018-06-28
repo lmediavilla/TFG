@@ -27,11 +27,11 @@ class Bolsa:
             fecha = datetime.datetime.fromtimestamp(int(response['timestamp'])).strftime('%d-%m-%Y %H:%M:%S')
             self.Log.log(f"Bolsa -> cambio : {moneda1} equivale a {valor} {moneda2} fecha del valor {fecha}")
             print(f"Bolsa -> cambio : {moneda1} equivale a {valor} {moneda2} fecha del valor {fecha}")
-            return (f'1 {moneda1} equivale a {valor} {moneda2} \n fecha del valor {fecha}')
+            return (f'*1 {moneda1}* equivale a *{valor} {moneda2}* \n fecha del valor {fecha}')
         except  Exception as ex:
             self.Log.errorlog(f"Bolsa -> cambio : moneda 1:{moneda1} moneda2:{moneda2} {ex}")
             print(f"Bolsa -> cambio : moneda 1:{moneda1} moneda2:{moneda2} {ex}")
-            return "Error: no podimos gestionar su peticion"
+            return (f"No se pudo calcular el cambio entre *{moneda1}* y *{moneda2}*")
 
 ##para testear sin funcionar telegram###
 def main():
