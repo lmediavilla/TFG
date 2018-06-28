@@ -140,8 +140,8 @@ def alerta_comando(bot, update, args):
     print(f'argumentos pasados {len(args)}')
     for i in range(len(args)):
         print(f'{i} -> {args[i]}')
-    error = 'Por favor utiliza:\n/alerta empresa < cantidad -> para crear una alerta \n/alerta listar -> para listar tus alertas \n/alerta borrar todas -> para borrar todas tus alertas \n/alerta borrar empresa < 1000 -> borra esa alerta'
-    uso = 'utiliza:\n/alerta empresa < cantidad -> para crear una alerta \n/alerta listar -> para listar tus alertas \n/alerta borrar todas -> para borrar todas tus alertas \n/alerta borrar empresa < 1000 -> borra esa alerta'
+    error = 'Por favor utiliza:\n/alerta empresa < cantidad -> para crear una alerta \n/alerta listar -> para listar tus alertas \n/alerta borrar todas -> para borrar todas tus alertas \n/alerta borrar ID-alerta -> borra esa alerta'
+    uso = 'utiliza:\n/alerta empresa < cantidad -> para crear una alerta \n/alerta listar -> para listar tus alertas \n/alerta borrar todas -> para borrar todas tus alertas \n/alerta borrar ID-alerta -> borra esa alerta'
     if len(args) == 0:
         #comando basico
         print('cero')
