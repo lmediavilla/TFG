@@ -18,7 +18,7 @@ class Noticias:
             rss = feedparser.parse(col[int(url)])
             #print(f'rss -> {rss}')
             array = []
-            for i in range(0, 10):
+            for i in range(0, 5):
                 #print(f'i: {i} {rss.entries[i].link}')
                 array.append(rss.entries[i].link)
             self.Log.log(f"Noticias -> rss : {array}")
