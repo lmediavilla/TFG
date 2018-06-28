@@ -37,6 +37,8 @@ class Accion:
                 #print(f'dataForAllDays -> {n} -> {respuesta}')
                 break
             cierre = respuesta['4. close']
+            self.Log.log(f"Accion -> precio : empresa: {empresa} cierre: {cierre}")
+            print(f"Accion -> precio : empresa: {empresa} cierre: {cierre}")
             return cierre
         except:
             return -1

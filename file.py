@@ -19,14 +19,14 @@ from Alerta import Alerta
 def hola_comando(bot, update):
     custom_keyboard = [['/menu_principal'],['/cambio', '/noticias'],['/valor', '/alerta']]
     reply_markup = ReplyKeyboardMarkup(custom_keyboard)
-    respuesta = f'Hola @{update.message.from_user.username}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'
+    respuesta = f'Hola @{update.message.from_user.username}, las funciones implementadas son:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'
     bot.send_message(update.message.chat_id, text=respuesta, reply_markup=reply_markup)
     #update.message.reply_text('Hola {}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'.format(f'@{update.message.from_user.username}'))
 
 def comandos_comando(bot, update):
     custom_keyboard = [['/menu_principal'],['/cambio', '/noticias'],['/valor', '/alerta']]
     reply_markup = ReplyKeyboardMarkup(custom_keyboard)
-    respuesta = f'Hola @{update.message.from_user.username}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'
+    respuesta = f'Hola @{update.message.from_user.username}, las funciones implementadas son:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'
     bot.send_message(update.message.chat_id, text=respuesta, reply_markup=reply_markup)
     #update.message.reply_text('Hola {}, por ahora soporto:\n /hola \n/adios \n/cambio \n/noticias \n/valor\n/alerta'.format(f'@{update.message.from_user.username}'))
 
@@ -61,7 +61,7 @@ def cambio_comando(bot, update, args):
         except Exception as ex:
             Log.errorlog(f"file -> cambio_comando -> {ex}")
             print(f"file -> cambio_comando -> {ex}")
-            update.message.reply_text('No se pudo calcular el cambio de moneda')
+            update.message.reply_text(f'No se pudo calcular el cambio entre {moneda1} y {moneda2}')
     else:
         update.message.reply_text('Por favor utiliza:\n /cambio moneda1 moneda2')
 
@@ -204,15 +204,16 @@ def alerta_comando(bot, update, args):
         empresa = empresa.upper()
         modificador = args[1]
         valor = float(args[2])
-        ##aqui un if
-        print(alerta.add(update.message.chat_id,empresa,modificador,valor))
-        Log.log(f'file -> alerta_comando "/alerta {args[0]} {args[1]} {args[2]} {args[3]}" ejecutado')
-        print(f'file -> alerta_comando "/alerta {args[0]} {args[1]} {args[2]} {args[3]}" ejecutado')
-        update.message.reply_text('Alerta añadida')
-        ##aqui un else
-        print('Alerta añadida')
-        update.message.reply_text('Por favor utiliza:\n /alerta  empresa > ó < cantidad')
-        print('Alerta no añadida')
+        res = alerta.add(update.message.chat_id,empresa,modificador,valor)
+        if (res == True):
+            Log.log(f'file -> alerta_comandoalerta {args[0]} {args[1]} {args[2]} ejecutado')
+            print(f'file -> alerta_comando /alerta {args[0]} {args[1]} {args[2]} ejecutado')
+            update.message.reply_text(f'Alerta añadida\n{empresa} {modificador} {valor}',parse_mode=ParseMode.MARKDOWN)
+            #update.message.reply_text('Alerta añadida\n')
+            #C.valor(empresa)+'\nhttps://finance.yahoo.com/quote/'+f'{args[0]}',parse_mode=ParseMode.MARKDOWN
+        else:
+            update.message.reply_text('Por favor utiliza:\n /alerta  empresa > ó < cantidad')
+            print('Alerta no añadida')
     else:
         print('no se')
         Log.errorlog('file -> alerta_comando comando mal introducido')
@@ -232,7 +233,7 @@ def alerta_hilo(bot, job):
             valor = float(Respuesta[i][3])
             vactual = float(Respuesta[i][4])
             Id = int(Respuesta[i][5])
-            bot.send_message(chatId,f'★Alerta★\n{Empresa} {modificador} {valor}\nValor actual: {vactual}')
+            bot.send_message(chatId,f'★★★Alerta★★★\n{Empresa} {modificador} {valor}\nValor actual: {vactual}')
             C.borrar(chatId,Id)
     except Exception as ex:
         print(f'file: alerta_hilo ->  {ex}')
