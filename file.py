@@ -126,7 +126,7 @@ def valor_comando(bot, update, args):
         #print(C.valor(args[0]))
         #respuesta = C.valor(empresa)+'\nhttps://finance.yahoo.com/quote/'+f'{args[0]}'
         if(C.valor(empresa) != 'error'):
-            update.message.reply_text(C.valor(empresa)+'\nhttps://finance.yahoo.com/quote/'+f'{args[0]}',parse_mode=ParseMode.MARKDOWN)
+            update.message.reply_text(C.valor(empresa)+'\nhttps://finance.yahoo.com/chart/'+f'{args[0]}',parse_mode=ParseMode.MARKDOWN)
         else:
             update.message.reply_text(f'No podemos obtener el valor de {args[0]}')
     else:
