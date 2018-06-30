@@ -128,7 +128,7 @@ def valor_comando(bot, update, args):
         if(C.valor(empresa) != 'error'):
             update.message.reply_text(C.valor(empresa)+'\nhttps://finance.yahoo.com/quote/'+f'{args[0]}',parse_mode=ParseMode.MARKDOWN)
         else:
-            update.message.reply_text('No podemos obtener el valor de args[0]')
+            update.message.reply_text(f'No podemos obtener el valor de {args[0]}')
     else:
         custom_keyboard = [['/menu_principal'],['/valor'],['/valor AMZN', '/valor AAPL'],['/valor GOOGL', '/valor ^IBEX']]
         reply_markup = ReplyKeyboardMarkup(custom_keyboard)
