@@ -2,12 +2,12 @@
 ## Trabajo Fin de Grado
 ### Para instalarlo
 Es necesario mínimo python 3.6
-git-clone https://github.com/lmediavilla/TFG.git
-pip install feedparser
-pip install pandas
-pip install numpy
-pip install datetime
-pip install python-telegram-bot
+1. git-clone https://github.com/lmediavilla/TFG.git
+2. pip install feedparser
+3. pip install pandas
+4. pip install numpy
+5. pip install datetime
+ 6. pip install python-telegram-bot
 
 ### Para ejecutarlo
 1. Crear un bot https://core.telegram.org/bots#6-botfather
