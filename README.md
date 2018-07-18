@@ -17,6 +17,6 @@ Es necesario mínimo python 3.6
 5. Registrese en alphavantage https://www.alphavantage.co/support/#api-key
 6. Guarde el token en token3.txt
 7. Ejecute el bot
-python file.py
-Si quieres ejecutarlo en linux en segundo plano ejecute:
+python file.py<br>
+Si quieres ejecutarlo en linux en segundo plano ejecute:<br>
 nohup python3.6 file.py &
