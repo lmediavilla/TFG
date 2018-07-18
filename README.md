@@ -9,7 +9,7 @@ pip install numpy
 pip install datetime
 pip install python-telegram-bot
 
-###Para ejecutarlo
+### Para ejecutarlo
 1. Crear un bot https://core.telegram.org/bots#6-botfather
 2. Guardar el token del bot en el fichero token1.txt
 3. Registrese en 1forge https://1forge.com/register
