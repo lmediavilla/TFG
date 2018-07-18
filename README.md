@@ -1,6 +1,6 @@
 # TFG
-##Trabajo Fin de Grado
-###Para instalarlo
+## Trabajo Fin de Grado
+### Para instalarlo
 Es necesario mínimo python 3.6
 git-clone https://github.com/lmediavilla/TFG.git
 pip install feedparser
